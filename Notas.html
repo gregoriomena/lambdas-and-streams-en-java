@@ -33,6 +33,7 @@
 				<ul>
 					<li><a href="#sec21">3. ¿Qué es una expresión lambda?</a></li>
 					<li><a href="#sec22">4. ¿Qué es una interfaz funcional?</a></li>
+					<li><a href="#sec23">5. Sintaxis de una expresión lambda</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -71,6 +72,20 @@
 			</p>
 			<p>Las interfaces funcionales se utilizan principalmente para permitir el paso de funciones a métodos. Esto es, que podemos pasar una implementación de una función como argumento de un método.</p>
 			<p>Para que una interfaz sea funcional debe cumplir con un solo requisito: Solo debe tener un método abstracto. Puede tener varios métodos estáticos y default si quiere, pero solo un método abstracto.</p>
+		</span>
+		<span id="sec23">
+			<h3>2.5. Sintaxis de una expresión lambda</h3>
+			<p>De manera general, la sintaxis de una expresión lambda es: parametros -> cuerpo</p>
+			<p>Una expresión lamba representa el método abstracto de una interfaz funcional</p>
+			<img src="./notas/curso01.png" />
+			<p>Después de las llaves, se debe añadir un punto y coma, como si la expresión fuera una sentencia</p>
+			<p>Si la expresión lambda solamente tiene una sentencia, se puede prescindir de las llaves</p>
+			<img src="./notas/curso02.png" />
+			<p>Si el método recibe parámetros, no es necesario especificar el tipo</p>
+			<img src="./notas/curso03.png" />
+			<p>También, si sólo recibe un parámetro no es necesario usar los paréntisis</p>
+			<img src="./notas/curso04.png" />
+			<p>Si el método abstracto devuelve un valor, no es necesario usar la palabra clave return en la expresión lambda</p>
 		</span>
 	</body>
 </html>
