@@ -32,6 +32,7 @@
 				Sección 2: Uso de las expresiones lambda
 				<ul>
 					<li><a href="#sec21">3. ¿Qué es una expresión lambda?</a></li>
+					<li><a href="#sec22">4. ¿Qué es una interfaz funcional?</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -59,6 +60,17 @@
 			<p>En Java, una expresión lambda siempre va a representar el método abstracto de una interfaz funcional.</p>
 			<p>La expresión lambda va a separar su lista de parámetros de su cuerpo de función por medio del operador flecha -></p>
 			<p>Ejemplo: (argumentos) -> { //cuerpo de la expresión lambda }</p>
+		</span>
+		<span id="sec22">
+			<h3>2.4. ¿Qué es una interfaz funcional?</h3>
+			<p>Primero, comentar otras características de las interfaces en Java 8.
+				<ul>
+					<li>Ahora las interfaces permiten tener una implementación por defecto para sus métodos. Si un método de una interfaz tiene alguna implementación, es necesario declarar ese método como default.</li>
+					<li>La otra característica es que las interfaces pueden tener métodos estáticos implementados.</li>
+				</ul>
+			</p>
+			<p>Las interfaces funcionales se utilizan principalmente para permitir el paso de funciones a métodos. Esto es, que podemos pasar una implementación de una función como argumento de un método.</p>
+			<p>Para que una interfaz sea funcional debe cumplir con un solo requisito: Solo debe tener un método abstracto. Puede tener varios métodos estáticos y default si quiere, pero solo un método abstracto.</p>
 		</span>
 	</body>
 </html>
