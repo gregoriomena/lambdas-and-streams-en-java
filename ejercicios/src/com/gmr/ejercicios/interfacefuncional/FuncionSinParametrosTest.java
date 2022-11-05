@@ -1,4 +1,4 @@
-package com.gmr.ejercicios;
+package com.gmr.ejercicios.interfacefuncional;
 
 public interface FuncionSinParametrosTest {
 

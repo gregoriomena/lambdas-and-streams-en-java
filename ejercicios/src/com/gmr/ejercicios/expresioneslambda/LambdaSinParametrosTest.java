@@ -1,4 +1,6 @@
-package com.gmr.ejercicios;
+package com.gmr.ejercicios.expresioneslambda;
+
+import com.gmr.ejercicios.interfacefuncional.FuncionSinParametrosTest;
 
 public class LambdaSinParametrosTest {
 
